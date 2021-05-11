@@ -84,7 +84,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		09722DC925A64B5200446E11 /* XPC_Services_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPC_Services_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09722DC925A64B5200446E11 /* XPC_Local_Services_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPC_Local_Services_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09722DCC25A64B5200446E11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09722DCE25A64B5200446E11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09722DD025A64B5400446E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 		09722DCA25A64B5200446E11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09722DC925A64B5200446E11 /* XPC_Services_App.app */,
+				09722DC925A64B5200446E11 /* XPC_Local_Services_App.app */,
 				09722DED25A6512C00446E11 /* XPC_Services_Extension.xpc */,
 				09722E4325A77E8500446E11 /* XPC_Services_with_Update.xpc */,
 				0989DBB125C9EC3E00EC9954 /* MyApplication.framework */,
@@ -239,9 +239,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		09722DC825A64B5200446E11 /* XPC_Services_App */ = {
+		09722DC825A64B5200446E11 /* XPC_Local_Services_App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09722DDC25A64B5400446E11 /* Build configuration list for PBXNativeTarget "XPC_Services_App" */;
+			buildConfigurationList = 09722DDC25A64B5400446E11 /* Build configuration list for PBXNativeTarget "XPC_Local_Services_App" */;
 			buildPhases = (
 				09722DC525A64B5200446E11 /* Sources */,
 				09722DC625A64B5200446E11 /* Frameworks */,
@@ -256,9 +256,9 @@
 				09722E4D25A77E8500446E11 /* PBXTargetDependency */,
 				0989DBB725C9EC3E00EC9954 /* PBXTargetDependency */,
 			);
-			name = XPC_Services_App;
+			name = XPC_Local_Services_App;
 			productName = XPC_Services_App;
-			productReference = 09722DC925A64B5200446E11 /* XPC_Services_App.app */;
+			productReference = 09722DC925A64B5200446E11 /* XPC_Local_Services_App.app */;
 			productType = "com.apple.product-type.application";
 		};
 		09722DEC25A6512C00446E11 /* XPC_Services_Extension */ = {
@@ -336,7 +336,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 09722DC425A64B5200446E11 /* Build configuration list for PBXProject "XPC_Services_App" */;
+			buildConfigurationList = 09722DC425A64B5200446E11 /* Build configuration list for PBXProject "XPC_Local_Services_App" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -349,7 +349,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				09722DC825A64B5200446E11 /* XPC_Services_App */,
+				09722DC825A64B5200446E11 /* XPC_Local_Services_App */,
 				09722DEC25A6512C00446E11 /* XPC_Services_Extension */,
 				09722E4225A77E8500446E11 /* XPC_Services_with_Update */,
 				0989DBB025C9EC3E00EC9954 /* MyApplication */,
@@ -752,7 +752,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09722DC425A64B5200446E11 /* Build configuration list for PBXProject "XPC_Services_App" */ = {
+		09722DC425A64B5200446E11 /* Build configuration list for PBXProject "XPC_Local_Services_App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09722DDA25A64B5400446E11 /* Debug */,
@@ -761,7 +761,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09722DDC25A64B5400446E11 /* Build configuration list for PBXNativeTarget "XPC_Services_App" */ = {
+		09722DDC25A64B5400446E11 /* Build configuration list for PBXNativeTarget "XPC_Local_Services_App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09722DDD25A64B5400446E11 /* Debug */,
